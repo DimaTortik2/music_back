@@ -21,8 +21,6 @@ app.use(requestLogger);
 app.get('/', (req, res) => {
 	res.status(200).json({
 		message: 'Это Music Tree',
-		version: '1.0.0',
-		docs: '/api/v1',
 		status: 'active',
 	});
 });
